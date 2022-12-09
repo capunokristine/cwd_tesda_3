@@ -1,0 +1,102 @@
+body.html{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    background-color: #f6f7f7;
+    background-image: url(https://images.unsplash.com/photo-1587241321921-91a834d6d191?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    z-index: 2;
+    height: 100vh;
+}
+.homepage{
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+}
+.homepage .welcome{
+    margin:0 auto;
+}
+#home-tool{
+    background-color: #f6f7f7;
+    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1302&q=80);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    z-index: 2;
+    height: 100vh;
+}
+#about{
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0), 
+        rgba(255, 255, 255, 0)
+      ), url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1302&q=80);
+    background-position: right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+section.black{
+    padding-top: 25px;
+}
+.section-pastries{
+    margin-top: 50px;
+}
+#some{
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/3218467/pexels-photo-3218467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: top 15px center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+#some button, #about button{
+    background-color: #67444b;
+
+}
+#some button:hover, #about button:hover{
+    background: black;
+}
+
+.cards button a{
+    text-decoration: none!important;
+    color: rgb(231, 184, 125);
+}
+.cards .card{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.cards button{
+    padding: lem;
+    width: 100%;
+    background: #423336;
+    border: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.slider{
+    background-color: white;
+    height: 70px;
+    width: 100px;
+}
+footer ul{
+    font-size: 30px;
+    margin:0 auto;
+
+}
+footer ul li{
+    display: inline;
+    margin:0 10px;
+}
+footer ul{
+    font-size: 30px;
+    margin:0 auto;
+
+}
+footer ul li{
+    display: inline;
+    margin:0 10px;
+}
